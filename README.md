@@ -29,10 +29,10 @@ install -d -g hass -o hass -m 775 -- /srv/homeassistant
 
 su hass
 
-cd  #change to hass user home directory
+cd                                          #change to hass user home directory
 
-pwd #verify hass user home directory is /home/hass
+pwd                                         #verify hass user home directory is /home/hass
 
-source /srv/homeassistant/bin/activate  #enter python virtualenvironment previously created
+source /srv/homeassistant/bin/activate      #enter python virtualenvironment previously created
 
-pip install --upgrade homeassistant #this may take some time.
+pip install --upgrade homeassistant         #this may take some time.
