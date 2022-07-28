@@ -1,7 +1,13 @@
 # homeassistant-freebsd-guide
+
+
 Guide to install homeassistant in freebsd jail with python.  Credit truenas user: TPRELOG
+
 Original source: https://www.truenas.com/community/threads/how-to-home-assistant-in-a-jail-tested-on-9-10.50371/
+
 modified for freebsd 13.1 release, and Python 3.9
+
+
 
 pkg update
 
