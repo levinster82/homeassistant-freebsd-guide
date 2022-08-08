@@ -36,3 +36,7 @@ pwd                                         #verify hass user home directory is 
 source /srv/homeassistant/bin/activate      #enter python virtualenvironment previously created
 
 pip install --upgrade homeassistant         #this may take some time.
+
+deactivate                                  #exit virtualenv
+
+/srv/homeassistant/bin/hass --ignore-os-check
